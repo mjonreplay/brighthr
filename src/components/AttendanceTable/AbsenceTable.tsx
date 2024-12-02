@@ -1,8 +1,8 @@
-import AtendeeRow, {TableRowDataType} from "./AttendeeRow";
+import AbsenteeRow, {TableRowDataType} from "./AbsenteeRow";
 import { useEffect, useState } from "react";
 
 
-const AttendanceTable = () => {
+const AbsenceTable = () => {
     const [test, setTest] = useState<TableRowDataType[]>([]);
     const tableHeadings = ['Employee name', 'Start date', 'End date', 'Approval Status', 'Absence type'];
 
@@ -39,7 +39,7 @@ const AttendanceTable = () => {
             <tbody>
                 {test.map((attendeeData, index) => {
                     return (
-                        <AtendeeRow key={index} tableRowData={attendeeData}/>
+                        <AbsenteeRow key={index} tableRowData={attendeeData}/>
                     )
                 })}
             </tbody>
@@ -47,4 +47,4 @@ const AttendanceTable = () => {
     )
 }
 
-export default AttendanceTable;
+export default AbsenceTable;
