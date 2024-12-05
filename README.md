@@ -18,10 +18,12 @@ Using the conflicts endpoint ensures that any conflicts are highlighted in red
 The table headers "Employee Name," "Start Date," "Approval Status," and "Absence Type" are all clickable and allow sorting the array in ascending or descending order.
 
 ## To-do
- - Remove console.logs
- - Add API errors and loading states
- - Add tests for API calls
- - Add ascending / descending icons to the table headers, this will show user is able to click
+- Remove all console.log statements.
+- Implement error handling for API calls, including catch blocks and loading/failure states.
+- Write tests to cover API fetch scenarios for both success and failure cases.
+- Add ascending/descending icons to the table headers to indicate that they are clickable.
+- Future-proof the table by setting a maximum height and enabling scrolling for the table content.
+- Make the table header row sticky to remain visible during scrolling.
 
 
 # Getting Started 
