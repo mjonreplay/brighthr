@@ -1,11 +1,31 @@
-type tableHeadingsType = [
-    string,
-    string,
-    string,
-    string,
-    string
-];
+export type tableHeadingsType = headingtype[]
 
-const tableHeadings: tableHeadingsType = ['Employee name', 'Start date', 'End date', 'Approval Status', 'Absence type'];
+export interface headingtype {
+  name: string
+  sort: string
+}
+
+const tableHeadings: tableHeadingsType = [
+    {
+        name: 'Employee name',
+        sort: 'employee.firstName'
+    }, 
+    {
+        name: 'Start date',
+        sort: 'startDate'
+    }, 
+    {
+        name: 'End date',
+        sort: ''
+    }, 
+    {
+        name: 'Approval Status',
+        sort: 'approved'
+    }, 
+    {
+        name: 'Absence type',
+        sort: 'absenceType'
+    }
+];
   
 export default tableHeadings;
