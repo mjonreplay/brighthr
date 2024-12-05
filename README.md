@@ -24,6 +24,7 @@ The table headers "Employee Name," "Start Date," "Approval Status," and "Absence
 - Add ascending/descending icons to the table headers to indicate that they are clickable.
 - Future-proof the table by setting a maximum height and enabling scrolling for the table content.
 - Make the table header row sticky to remain visible during scrolling.
+- useMemo for array sorting
 
 
 # Getting Started 
