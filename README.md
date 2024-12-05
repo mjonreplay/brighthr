@@ -1,3 +1,23 @@
+# Bright HR - Abbsences Table
+
+![Screenshot 2024-12-05 at 13 32 00](https://github.com/user-attachments/assets/b627c33f-c198-4ba4-bac7-f2a00fb5bb05)
+
+## Features
+
+Light / Dark mode
+![Screenshot 2024-12-05 at 13 32 54](https://github.com/user-attachments/assets/cefa0b2d-fbc9-4141-b017-279d77fdbb2e)
+
+Conflicts
+
+Sorting columns
+
+## To-do
+ - Remove console.logs
+ - Add API errors and loading states
+ - Add tests for API calls
+ - Add ascending / descending icons to the table headers, this will show user is able to click
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -24,23 +44,3 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
